@@ -1,0 +1,18 @@
+<!DOCTYPE   html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>
+        欢迎光临
+    </title>>
+</head>>
+<body>
+    <h1>欢迎光临</h1>
+    <hr>
+    {% for post in posts_list%}
+        <li>{{ post.title }}</li>
+    {% endfor %}
+    <hr>
+    <h3>现在时刻：{{ now }} </h3>
+</body>
+</html>
